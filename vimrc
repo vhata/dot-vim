@@ -4,7 +4,7 @@ set nocompatible
 
 " ================ Pathogen =========================
 filetype off
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 

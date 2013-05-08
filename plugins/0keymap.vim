@@ -130,8 +130,8 @@ nnoremap <silent> ss <C-w>s
 
 " copy current filename into system clipboard - mnemonic: (c)urrent(f)ilename
 " this is helpful to paste someone the path you're looking at
-nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
-nnoremap <silent> ,cn :let @* = expand("%:t")<CR>
+"nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
+"nnoremap <silent> ,cn :let @* = expand("%:t")<CR>
 
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>

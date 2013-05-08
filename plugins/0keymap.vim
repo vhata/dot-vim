@@ -13,6 +13,8 @@ nmap <leader>cc :cclose<CR>
 nmap <leader>cn :cn<CR>
 nmap <leader>cp :cp<CR>
 
+" move line onto previous line
+nmap <leader>bl ^d0i<C-H> <Esc>w
 " Vertical Split : Ctrl+w + v
 " Horizontal Split: Ctrl+w + s
 " Close current windows: Ctrl+w + q
